@@ -1,4 +1,4 @@
-![Screenshot 2024-04-03 103023](https://github.com/premalatha-sureshbabu/OPENING--AND-CLOSING/assets/120620842/45dc65d9-0c11-44eb-93ad-0182300de515)# OPENING--AND-CLOSING
+
 ## Aim
 To implement Opening and Closing using Python and OpenCV.
 
