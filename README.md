@@ -61,26 +61,6 @@ plt.imshow(cv2.cvtColor(color_image, cv2.COLOR_BGR2RGB))
 plt.title('Original Color Image')
 plt.axis('on')
 
-plt.subplot(2, 4, 2)
-plt.imshow(gray_image, cmap="gray")
-plt.title('Black and white Image')
-plt.axis('on')
-
-plt.subplot(2, 4, 3)
-plt.imshow(edges, cmap='gray')
-plt.title('Edge Segmentation')
-plt.axis('on')
-
-plt.subplot(2, 4, 4)
-plt.imshow(erosion, cmap='gray')
-plt.title('Erosion')
-plt.axis('on')
-
-plt.subplot(2, 4, 5)
-plt.imshow(dilation, cmap='gray')
-plt.title('Dilation')
-plt.axis('on')
-
 plt.subplot(2, 4, 6)
 plt.imshow(opening, cmap='gray')
 plt.title('Opening')
