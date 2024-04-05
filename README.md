@@ -26,13 +26,13 @@ Use Closing Operation
 Developed by : S.Prema Latha
 Register no : 212222230112
 ```
-# Import the necessary packages
+## Import the necessary packages
 ```
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 ```
-# Create the Text using cv2.putText
+## Create the Text using cv2.putText
 ```
 # Read the color image
 input_image_path = 'kitty.jpg'
@@ -62,7 +62,7 @@ closing = cv2.morphologyEx(edges, cv2.MORPH_CLOSE, kernel)
 ```
 
 
-# Create the structuring element
+## Create the structuring element
 ```
 plt.figure(figsize=(15, 10))
 plt.subplot(2, 3, 1)
@@ -72,7 +72,7 @@ plt.axis('on')
 ```
 
 
-# Use Opening operation
+## Use Opening operation
 ```
 plt.subplot(2, 3, 2)
 plt.imshow(opening, cmap='gray')
@@ -82,7 +82,7 @@ plt.axis('on')
 
 
 
-# Use Closing Operation
+## Use Closing Operation
 ```
 plt.subplot(2, 3, 3)
 plt.imshow(closing, cmap='gray')
